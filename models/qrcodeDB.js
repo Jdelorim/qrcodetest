@@ -23,8 +23,7 @@ QRcode.toDataURL(siteToGenerate, function(err, pic){
     //regex to remove the heading and just get the base64 string
      base64Data = imgData.replace(/^data:image\/png;base64,/,"");
    //  console.log("baseDATA:",base64Data);
-   
-     writeMe();
+    writeMe();
   // tryme();
 });
 
