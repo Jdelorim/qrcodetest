@@ -1,5 +1,5 @@
 var Sequelize = require("sequelize");
-var bodyParser = require("body-parser");
+
 var sequelize = require("../config/connection.js");
 
 var QRcode = require('qrcode');
@@ -42,22 +42,8 @@ function writeMe() {
     });
     }
 
-
-
-
-
-
-  
-    //console.log("after sync:",QRcode);
-    
-    
-  
-    
-    
-    
-    
         QRcodeDataBase.findAll({}).then(function(results) {
-           console.log("QRcodeDBs:",results);
+         //  console.log("QRcodeDBs:",results);
           //  res.send(results);
         })
     

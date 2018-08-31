@@ -13,7 +13,11 @@
        crossorigin="anonymous"></script>
 </head>
 <body>
-        
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="store-img">Upload your Image</label>
+        <input name="profileImg" type="file" class="form-control-file" id="store-img" accept="image/*">
+        <input name="josh" type="submit" value="Submit">
+      </form>
         
  
    
